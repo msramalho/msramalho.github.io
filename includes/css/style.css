@@ -1,0 +1,152 @@
+body,
+html {
+    background-color: #f8f8f8;
+}
+
+#sideBar {
+    height: 100%;
+    max-width: 25%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+#sideBar> :first-child {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 959px) {
+    /* the same width as in uk-visible */
+
+    #mainContent {
+        max-width: 75%;
+        position: absolute;
+        left: 25%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 959px) {
+
+    /* the same width as in uk-visible */
+    #personalPhoto {
+        max-width: 300px !important;
+        width: 100%;
+    }
+}
+
+a.faLink {
+    text-decoration: none;
+}
+
+a.faLink:hover {
+    color: #e3e3e3;
+}
+
+div.uk-countdown-label {
+    font-size: 15px;
+}
+
+div.uk-countdown-number {
+    font-size: 40px;
+}
+
+.uk-card-body {
+    padding: 15px;
+}
+
+.uk-card {
+    border: 1px solid #e3e3e3;
+}
+
+.codeHeaher {
+    height: 100px;
+}
+
+.uk-heading-line>* {
+    line-height: normal;
+}
+
+div.divider {
+    margin-top: 300px;
+}
+
+/* Custom tag colors */
+
+.uk-label {
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+.uk-label-ai {
+    background-color: #1e87f0;
+}
+
+.uk-label-lowlevel {
+    background-color: #32d296;
+}
+
+.uk-label-web {
+    background-color: #f0506e;
+}
+
+.uk-label-mobile {
+    background-color: #E65100;
+}
+
+.uk-label-security {
+    background-color: #1b5e20;
+}
+
+.uk-label-graphics {
+    background-color: #5D4037;
+}
+
+.uk-label-academic {
+    background-color: #424242;
+}
+
+.uk-label-misc {
+    background-color: #263238;
+}
+
+.language-logo {
+    max-height: 36px;
+    max-width: 36px;
+    margin-left: 12px;
+}
+
+a.uk-text-muted:hover {
+    color: #434343 !important;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0f2f1;
+    border-radius: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a1a1a1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+.uk-light .uk-nav-primary>li.uk-active>a,
+.uk-light a:hover {
+    color: #1e87f0;
+}
+
+.uk-light .uk-nav-primary>li:not(.uk-active)>a:hover {
+    color: #0f6ecd;
+}
